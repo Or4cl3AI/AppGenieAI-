@@ -29,10 +29,10 @@ function assistAndroidDevelopment(appDetails) {
 }
 
 // Event listeners for chatbot prompts and responses
-document.getElementById('chat-interface').addEventListener('appNamePrompt', initChatInterface);
-document.getElementById('chat-interface').addEventListener('appDescriptionPrompt', generateCode);
-document.getElementById('code-generator').addEventListener('codeSnippetMessage', setupProject);
-document.getElementById('project-setup').addEventListener('projectSetupMessage', customizeApp);
-document.getElementById('app-customizer').addEventListener('appCustomizationMessage', provideRecommendations);
-document.getElementById('recommendation-engine').addEventListener('recommendationMessage', assistAndroidDevelopment);
-document.getElementById('android-development').addEventListener('androidDevelopmentMessage', assistAndroidDevelopment);
+document.getElementById('chat-interface').addEventListener('click', initChatInterface);
+document.getElementById('chat-interface').addEventListener('click', generateCode);
+document.getElementById('code-generator').addEventListener('click', setupProject);
+document.getElementById('project-setup').addEventListener('click', customizeApp);
+document.getElementById('app-customizer').addEventListener('click', provideRecommendations);
+document.getElementById('recommendation-engine').addEventListener('click', assistAndroidDevelopment);
+document.getElementById('android-development').addEventListener('click', assistAndroidDevelopment);
