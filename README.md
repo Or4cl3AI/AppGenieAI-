@@ -1,6 +1,6 @@
 # AppGenieAI
 
-Welcome to AppGenieAI, your app development assistant!
+      Welcome to AppGenieAI, your app development assistant!
 
 AppGenie is a conversational AI chatbot that assists you in creating your own app. It provides a guided experience where you can have a conversation with the chatbot to define your app's details, generate code snippets, set up a new project, customize the app's aesthetics and usability, receive personalized recommendations, and develop Android apps.
 
